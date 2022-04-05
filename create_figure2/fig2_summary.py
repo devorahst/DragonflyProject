@@ -2,15 +2,17 @@ import os
 import csv
 #TO DO: Replace from_dir with the file path from this file to the directory that contains your data
 from_dir = os.path.join('.','results') 
+# TO DO: replace directory_key_word with a key word in the title of your directories that contain the recovered orthologs
+directory_key_word = 'final'
 # TO DO: replace data_file_key_word with a key word in the title of your data files that contain the recovered orthologs
-data_file_key_word = 'final'
+data_file_key_word = 'targetsFULL_ORTHO'
 	
 with open ('fig2_summary.csv','w', newline = '' ) as csvfile:
 	summarywriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
 	summarywriter.writerow(['Comparison', 'Comparison_Type', 'Species', 'Recovered_loci'])
 	directories_in_directory = os.listdir(from_dir)
 	for directory in directories_in_directory:
-		if directory.find(data_file_key_word) != -1:#finds the right directories, edit to match your directory names
+		if directory.find(directory_key_word) != -1:#finds the right directories, edit to match your directory names
 			comparison = directory[0] + '/' + directory.split('_', 2)[-1][0] #Abreviate to first letters
 			comparison = comparison.upper()
 			if comparison[0] == comparison[2]:
@@ -20,7 +22,7 @@ with open ('fig2_summary.csv','w', newline = '' ) as csvfile:
 			files_in_directory = os.listdir(from_dir + '/' + directory)
 			files_in_directory.sort()
 			for filename in files_in_directory:
-				if filename.find('targetsFULL_ORTHO') != -1 and filename.find('.fasta') != -1:
+				if filename.find(data_file_key_word) != -1 and filename.find('.fasta') != -1:
 					species_id = filename.split('_', 1)[0]#find the string until '_', species#
 					filepath = os.path.join(from_dir, directory, filename)#complimentary ORTHO.fasta
 					try:
