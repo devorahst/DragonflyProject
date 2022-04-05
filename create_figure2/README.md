@@ -19,11 +19,14 @@ R Libraries that must be installed include:
 2. ggplot2
 
 ################################################################################################
+EDITS TO FIG2_SUMMARY.PY
+
+There are multiple comments at the top of the script that say "TO DO:". The lines below each of these comments are editable based on the titles of your directories and files. 
+
+################################################################################################
 
 Input Files:
-This algorithm requires a directory containing at least 1 fasta file that have header/sequence alternating lines with a greater than symbol (>) 
-between every CDS region and at the end of each sequence. To create this file, look at the example files in
-the directory smallTest.
+This algorithm requires a directory containing multiple directories of fasta files that were created by running AHE data against reference loci in the Breinholt pipeline. Each of the inner directories correspond to the insect order of the AHE data and the insect order of the reference loci, with each word separated by an underscore (_)_.(For example, if Ephemeroptera AHE data were run against Odonata reference loci, the directory would be titled "ephem_on_odonata_final"). The fasta files inside these directories are required to have a title that begins with the species name and ends with "targetsFULL_ORTHO.fasta". The fasta files  must have header/sequence alternating lines with a greater than symbol (>) between every CDS region and at the end of each sequence. To create this file, look at the example files in the directory smallTest._
 
 ################################################################################################
 
