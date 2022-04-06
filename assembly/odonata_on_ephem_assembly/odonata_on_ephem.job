@@ -10,7 +10,7 @@
 #SBATCH --time=48:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
-#SBATCH --array=1-260
+#SBATCH --array=1-261 # doesn't need to change, but based off of number of names in "names_trimmed_species.txt"
 
 
 # -b to line12 for burst
