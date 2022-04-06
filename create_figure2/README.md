@@ -41,7 +41,7 @@ python3 fig2_summary.py
 Running the above command will produce a single output file called fig2_summary.csv in the current directory. For us, this test took
 approximately 4 seconds of real time and 41 seconds of user time.
 
-Once fig2_summary.csv has been created, import fig2_summary.csv from test(base) into RStudio and run fig2_plot.R in RStudio. 
+Once fig2_summary.csv has been created, transfer fig2_summary.csv onto the same drive as RStudio (if it's not already on th same drive) and Open RStudio. In the Environments window of RStudio, click "Import Dataset" -> "From text (base)" and select fig2_sumary.csv, then click "Import". Highlight the entire text in fig2_plot.R and click "Run". 
 
 ################################################################################################
 
