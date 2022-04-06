@@ -1,7 +1,10 @@
 # DragonflyProject
 #####################################################################################################
 
-**Get the data** :) Good luck (Description on how and where to get data) and why we can't upload it
+**Get the data** 
+
+The Ephemeroptera dataset was created by Miller et. al. [DOI: 10.1111/syen.12298] for use in analyzing the evolution of tusks in burrowing mayflies. The Odonata dataset was created by Bybee et. al. [10.1186/s12983-016-0176-7] for use in an evolutionary analysis. Data was obtained from these researchers with authorization for use in our analysis. Data is stored on the Mary Lou computing cluster at Brigham Young University. For access please reach out to the authors.
+
 
 #####################################################################################################
 
@@ -23,7 +26,6 @@ conda install -c anaconda numpy
 conda install -c bioconda mafft
         or
 conda install --channel bioconda mafft=7.475
-
 
 
 #####################################################################################################
