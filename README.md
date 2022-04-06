@@ -9,7 +9,7 @@ The Ephemeroptera dataset was created by Miller et. al. [DOI: 10.1111/syen.12298
 
 **Create Environment**
 
-You will need to create 2 different conda environments before proceeding. Do this by following the instructions in [environments](./environments/)
+You will need to create 2 different conda environments before proceeding. Do this by following the instructions in [environments](./environments/).
 
 #######################################################################################
 
@@ -27,14 +27,18 @@ Follow the directions in [assembly](./assembly/).
 
 **Concatenate and rename data**
 
-After all of the data has finished being run through the assembler, follow the instructions in []
+After all of the data has finished being run through the assembler, follow the instructions in [name_changing](./name_changing/).
 
 #######################################################################################
 
-**[Create](/create_figure2) figure 2**
+**Figure 2**
+
+To recreate figure 2, follow the instructions in [create_figure2](./create_figure2/).
 
 #######################################################################################
 
-**[Create](/create_figure3) figure 3**
+**Figure 3**
+
+To recreate figure 3, follow the instructions in [create_figure3](./create_figure3/).
 
 #######################################################################################
