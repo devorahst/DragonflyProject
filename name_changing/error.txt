@@ -1,0 +1,11 @@
+ODONATA_on_ODONATA
+[Errno 2] No such file or directory: '../results/odonata_on_odonata_results/Synthemistidae_Parasynthemis_1_targetsFULL_ORTHO.fasta'
+[Errno 2] No such file or directory: '../results/odonata_on_odonata_results/Argiolestidae_Austroargiolestes_3_targetsFULL_ORTHO.fasta'
+[Errno 2] No such file or directory: '../results/odonata_on_odonata_results/Argiolestidae_Austroargiolestes_4_targetsFULL_ORTHO.fasta'
+[Errno 2] No such file or directory: '../results/odonata_on_odonata_results/Heteragrionidae_Heteragrion_3_targetsFULL_ORTHO.fasta'
+ODONATA_on_EPHEM
+[Errno 2] No such file or directory: '../results/odonata_on_ephem_results/Synthemistidae_Parasynthemis_1_targetsFULL_ORTHO.fasta'
+[Errno 2] No such file or directory: '../results/odonata_on_ephem_results/Argiolestidae_Austroargiolestes_3_targetsFULL_ORTHO.fasta'
+[Errno 2] No such file or directory: '../results/odonata_on_ephem_results/Argiolestidae_Austroargiolestes_4_targetsFULL_ORTHO.fasta'
+EPHEM_on_EPHEM
+EPHEM_on_ODONATA

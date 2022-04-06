@@ -20,5 +20,3 @@
 7. Change the email to your email in each .job file.
 
 8. Use "sbatch" followed by the job file to launch the script. Correctly running jobs will produce A LOT of files. The files that are needed end in targetsFULL_ORTHO.fasta and targets_ORTHO.fasta.
-
-
