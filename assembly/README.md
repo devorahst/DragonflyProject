@@ -1,4 +1,4 @@
-# Running the assembler (the first half of the pipeline).
+# Running the assembler.
 
 1. Download the reference genomes by running "wget https://byu.box.com/s/0a11f9u7obzegcyfvhz20ob3t5kcivej"
 
