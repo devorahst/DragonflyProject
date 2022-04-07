@@ -1,5 +1,6 @@
-README:
+# Figure 2
 ################################################################################################
+
 REQUIREMENTS:
 
 create_figure2 uses Python version 2.7.5
@@ -19,6 +20,7 @@ R Libraries that must be installed include:
 2. ggplot2
 
 ################################################################################################
+
 EDITS TO FIG2_SUMMARY.PY
 
 There are multiple comments at the top of the script that say "TO DO:". The lines below each of these comments are editable based on the titles of your directories and files. 
@@ -44,5 +46,3 @@ approximately 4 seconds of real time and 41 seconds of user time.
 Once fig2_summary.csv has been created, transfer fig2_summary.csv onto the same drive as RStudio (if it's not already on th same drive) and Open RStudio. In the Environments window of RStudio, click "Import Dataset" -> "From text (base)" and select fig2_sumary.csv, then click "Import". Highlight the entire text in fig2_plot.R and click "Run". 
 
 ################################################################################################
-
-
