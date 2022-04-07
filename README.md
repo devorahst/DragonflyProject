@@ -7,7 +7,7 @@ The Ephemeroptera dataset was created by Miller et. al. [DOI: 10.1111/syen.12298
 
 #######################################################################################
 
-**Create Environment**
+**Create environments**
 
 You will need to create 2 different conda environments before proceeding. Do this by following the instructions in [environments](./environments/).
 

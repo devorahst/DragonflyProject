@@ -30,7 +30,7 @@ with open("error.txt", 'w') as errors:
             with open("../results/odonata_on_odonata_results/" + name + "_targetsFULL_ORTHO.fasta", 'r') as old:
                 old_content = old.read().rstrip()
                 new_content=old_content.replace(name, species_reference[name])
-                with open("../results/odonata_on_odonata_final/" + species_reference[name] + "_targetsFULL_ORTHO.fasta", 'a') as new:
+                with open("../results/odonata_on_odonata_final/" + species_reference[name] + "_targetsFULL_ORTHO.fasta", 'w') as new:
                     new.write(new_content + '\n')
         except Exception as e:
             errors.write(str(e) + '\n')
@@ -41,7 +41,7 @@ with open("error.txt", 'w') as errors:
             with open("../results/odonata_on_ephem_results/" + name + "_targetsFULL_ORTHO.fasta", 'r') as old:
                 old_content = old.read().rstrip()
                 new_content=old_content.replace(name, species_reference[name])
-                with open("../results/odonata_on_ephem_final/" + species_reference[name] + "_targetsFULL_ORTHO.fasta", 'a') as new:
+                with open("../results/odonata_on_ephem_final/" + species_reference[name] + "_targetsFULL_ORTHO.fasta", 'w') as new:
                     new.write(new_content + '\n')
         except Exception as e:
             errors.write(str(e) + '\n')
@@ -52,7 +52,7 @@ with open("error.txt", 'w') as errors:
         with open("../results/ephem_on_ephem_results/" + old_name, 'r') as old:
             old_content = old.read().rstrip()
             new_content = old_content.replace(old_name[:-24], new_name)
-            with open("../results/ephem_on_ephem_final/" + new_name  + "_targetsFULL_ORTHO.fasta", 'a') as new:
+            with open("../results/ephem_on_ephem_final/" + new_name  + "_targetsFULL_ORTHO.fasta", 'w') as new:
                 new.write(new_content + '\n')
     
     errors.write("EPHEM_on_ODONATA\n")
@@ -61,5 +61,5 @@ with open("error.txt", 'w') as errors:
         with open("../results/ephem_on_odonata_results/" + old_name, 'r') as old:
             old_content = old.read().rstrip()
             new_content = old_content.replace(old_name[:-24], new_name)
-            with open("../results/ephem_on_odonata_final/" + new_name + "_targetsFULL_ORTHO.fasta", 'a') as new:
+            with open("../results/ephem_on_odonata_final/" + new_name + "_targetsFULL_ORTHO.fasta", 'w') as new:
                 new.write(new_content + '\n')
