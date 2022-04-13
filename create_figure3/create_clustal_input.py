@@ -1,8 +1,9 @@
 import os
 import itertools
 
-os.system("cp ../results/odonata_on_odonata_final/* ../results/on_odonata_results/.")		
-os.system("cp ../results/ephem_on_odonata_final/* ../results/on_odonata_results/.")	
+os.system("mkdir ../results/on_odonata_results/")
+os.system("cp ../results/odonata_on_odonata_final/*.fasta ../results/on_odonata_results/.")		
+os.system("cp ../results/ephem_on_odonata_final/*.fasta ../results/on_odonata_results/.")	
 from_dir = '../results/on_odonata_results'
 files_in_directory = os.listdir(from_dir)
 files_in_directory.sort()
