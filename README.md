@@ -15,36 +15,36 @@ All of the following was done on the Mary Lou computing cluster at Brigham Young
 
 **Create environments**
 
-You will need to create 2 different conda environments before proceeding. Do this by following the instructions in [environments](./environments/).
+You will need to create 2 different conda environments before proceeding. Do this by changing directories to and following the instructions in [environments](./environments/).
 
 #######################################################################################
 
 **Trim the data**
 
-After obtaining the raw data and placing it in the ephem_raw_data and odonata_raw_data directories respectively, follow the instructions in [trim_data](./trim_data/).
+After obtaining the raw data and placing it in the ephem_raw_data and odonata_raw_data directories respectively, change directory to and follow the instructions in [trim_data](./trim_data/).
 
 #######################################################################################
 
 **Run the assembly**
 
-Follow the directions in [assembly](./assembly/).
+Change directory to and follow the directions in [assembly](./assembly/).
 
 #######################################################################################
 
 **Concatenate and rename data**
 
-After all of the data has finished being run through the assembler, follow the instructions in [name_changing](./name_changing/).
+After all of the data has finished being run through the assembler, change directory to and follow the instructions in [name_changing](./name_changing/).
 
 #######################################################################################
 
 **Figure 2**
 
-To recreate figure 2, follow the instructions in [create_figure2](./create_figure2/).
+To recreate figure 2, change directory to and follow the instructions in [create_figure2](./create_figure2/).
 
 #######################################################################################
 
 **Figure 3**
 
-To recreate figure 3, follow the instructions in [create_figure3](./create_figure3/).
+To recreate figure 3, change directory to and follow the instructions in [create_figure3](./create_figure3/).
 
 #######################################################################################
