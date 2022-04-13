@@ -38,7 +38,7 @@ for filename in files_in_directory:
 							continue
 
 #Isolate 910 for figure3
-os.system("cat L910.fasta_mayfly >> clustal_input.txt")
+os.system("cat L910.fasta_mayfly > clustal_input.txt")
 os.system("cat L910.fasta_odonata >> clustal_input.txt")
 os.system("rm L*.fasta*")
 		
